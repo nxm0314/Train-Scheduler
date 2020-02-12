@@ -1,0 +1,28 @@
+label {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.table-header{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.trash-can {
+	width:  25px;
+	height: 25px;
+}
+
+.form-validation {
+	color: red;
+}
+
+.bg-dark {
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.card-title {
+    font-family: cursive;
+    font-weight: 600;
+}
