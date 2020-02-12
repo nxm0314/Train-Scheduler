@@ -65,20 +65,20 @@
 			<div class="col-md-12">
 				<div class="card border border-primary">
 					<div class="card-header bg-primary text-white">
-						<h5> Current train schedule</h5>
+						<h5> Current Train Schedule</h5>
 					</div>
 					<div class="card-body">
 							<!--Display current/running time here using moment Js-->
-							<h5>Current time: <span id="current-time"></span></h5>
+							<h5>Current Time: <span id="current-time"></span></h5>
 							<table class="table table-hover table-responsive-md">
 							  <thead>
 							    <tr>
 									<th scope="col"></th>
-							    	<th scope="col">Train name <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The name of the train."></i></th>
+							    	<th scope="col">Train Name <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The name of the train."></i></th>
 							    	<th scope="col">Destination <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The location to where the train is traveling to. For example, Chicago, IL."></i></th>
 							    	<th scope="col">Frequency (min) <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="How often (in minutes) the train leaves."></i></th>
-							    	<th scope="col">Next arrival <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The time the next train will arrive at the destination."></i></th>
-							    	<th scope="col">Minutes away <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The number of minutes until the next train is expected to arrive at the destination."></i></th>
+							    	<th scope="col">Next Arrival <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The time the next train will arrive at the destination."></i></th>
+							    	<th scope="col">Minutes Away <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The number of minutes until the next train is expected to arrive at the destination."></i></th>
 							    </tr>
 							  </thead>
 							  <tbody id="schedule-body">
@@ -93,12 +93,12 @@
 			<div class="col-md-12">
 				<div class="card border border-primary">
 					<div class="card-header bg-primary text-white">
-						<h5> Add train</h5>
+						<h5> Add Train</h5>
 					</div>
 					<div class="card-body">
 						<form>
 							<div class="form-group">
-						    	<label for="trainName">Train name <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The name of the train you want to add to the schedule. For example, Milwaukee Railroad."></i></label>
+						    	<label for="trainName">Train Name <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="The name of the train you want to add to the schedule. For example, Milwaukee Railroad."></i></label>
 						    	<input type="text" class="form-control" id="train-name" placeholder="Departure City">
 						  	</div>
 						  	<div class="form-group">
@@ -106,7 +106,7 @@
 						    	<input type="text" class="form-control" id="destination" placeholder="Arrival City">
 						  	</div>
 						  	<div class="form-group">
-						    	<label for="firstTrainTime">First train time (HH:mm - military time) <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Enter the first time that the train leaves (specify in military time)."></i></label>
+						    	<label for="firstTrainTime">Train Times (HH:mm - military time) <i class="fa fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Enter the first time that the train leaves (specify in military time)."></i></label>
 						    	<small id="not-military-time" class="form-validation"></small>
 						    	<input type="text" class="form-control" id="first-train-time" placeholder="HH:mm">
 						  	</div>
